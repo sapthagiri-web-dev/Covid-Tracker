@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corona virus tracker</title>
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body>
+
+    <header  >Corona Tracker</header>
+
+ <div class="main-container" >
+  
+ 
+
+  
+  <div class="corona-container">
+    <h1>Corona  World Wide</h1>
+    <h2 class="new-cases" >New cases: <span id="new-cases"></span></h2></h2>
+    <h2 class="new-death" >New Death:  <span id="new-death"></span></h2></h2>
+    <h2 class="new-recov" >New Recovered: <span id="new-recov"></span></h2></h2>
+    <h2 class="total-death">Total Death: <span id="total-death"></span></h2>
+  </div>
+
+ 
+  
+  <div class="corona-container">
+    <h1>Corona in India</h1>
+    <h2 class="new-cases" >New cases: <span id="new-cases-In"></span></h2></h2>
+    <h2 class="new-death" >New Death:  <span id="new-death-In"></span></h2></h2>
+    <h2 class="new-recov" >New Recovered: <span id="new-recov-In"></span></h2></h2>
+    <h2 class="total-death">Total Death: <span id="total-death-In"></span></h2>
+  </div>
+ 
+</div>
+ 
+<div class="bottom-container" >
+  <h1>Showing Results for: <span id="dated" ></span> </h1> 
+<button class="refresh" id="refresh" onclick="getData">
+  Click to Refresh
+</button>
+</div>
+
+ 
+ </div>
+    <script src="index.js"></script>
+  </body>
+</html>
