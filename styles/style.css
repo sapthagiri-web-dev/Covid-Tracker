@@ -49,6 +49,30 @@ span {
   color: #663f3f;
 }
 
+@media all and (max-width: 700px) {
+  header {
+    font-size: 30px;
+  }
+  .main-container {
+    margin-left: 50px;
+  }
+  .main-container .corona-container {
+    width: 120px;
+  }
+  .main-container .corona-container h1 {
+    font-size: 20px;
+  }
+  .main-container .corona-container h2 {
+    font-size: 15px;
+  }
+  .bottom-container h1 {
+    font-size: 20px;
+  }
+  .bottom-container .refresh {
+    font-size: 13px;
+  }
+}
+
 .refresh {
   background: #3498db;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#3498db), to(#2980b9));

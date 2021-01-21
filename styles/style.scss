@@ -50,6 +50,32 @@ span {
   }
 }
 
+@media all and (max-width: 700px) {
+  header {
+    font-size: 30px;
+  }
+  .main-container {
+    margin-left: 50px;
+    .corona-container {
+      width: 120px;
+      h1 {
+        font-size: 20px;
+      }
+      h2 {
+        font-size: 15px;
+      }
+    }
+  }
+  .bottom-container {
+    h1 {
+      font-size: 20px;
+    }
+    .refresh {
+      font-size: 13px;
+    }
+  }
+}
+
 ////////////////////////////////////////////////
 .refresh {
   background: #3498db;
